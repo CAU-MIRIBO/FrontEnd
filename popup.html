@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="popup.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <div class="header">
+                <img src="img/logos/1024x1024.png" alt="Setting_Image" width="40" height="40">
+            </div>
+            <div class="header_text">
+                Setting
+            </div>
+        </div>
+        
+
+        <div class="set" id="set">
+
+            <div class="keywordset">
+                <div class="T1">
+                    Main Keywords
+                </div>
+                <label for="cb1">
+                    <input type="checkbox" id="cb1">
+                    <label for="cb1" class="switch_label">
+                        <span class="onf_btn"></span>
+                    </label>
+                </label>
+            </div>
+
+            <div class="summery">
+                <div class="T1">
+                    Summary
+                </div>
+                <label for="cb2">
+                    <input type="checkbox" id="cb2">
+                    <label for="cb2" class="switch_label">
+                        <span class="onf_btn"></span>
+                    </label>
+                </label>
+            </div>
+
+            <div class="searchword">
+                <div class="def">
+                    <div class="T1">
+                        Search Word
+                    </div>
+                    <label for="cb3">
+                        <input type="checkbox" id="cb3">
+                        <label for="cb3" class="switch_label">
+                            <span class="onf_btn"></span>
+                        </label>
+                    </label>
+                </div>
+                <div class="opt" id="opt">
+                    <div class="exp" id="exp">
+                        Search by sentence
+                    </div>
+                    <div class="SWoption" id="SWoption">
+                        <input type="radio" id="SWop1" name="SWoption" value="1" checked/>
+                        <label for="SWop1">"Hello world"</label>
+
+                        <input type="radio" id="SWop2" name="SWoption" value="2" />
+                        <label for="SWop2">"Hello" / "world"</label>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="preview">
+                <div class="T1">
+                    Preview
+                </div>
+                <label for="cb4">
+                    <input type="checkbox" id="cb4">
+                    <label for="cb4" class="switch_label">
+                        <span class="onf_btn"></span>
+                    </label>
+                </label>
+            </div>
+
+        </div>
+
+
+        <button class="saveBtn" id="saveBtn">
+        <span>SAVE</span>
+        </button>
+
+    </div>
+
+
+    <script src="popup.js"></script>
+</body>
+</html>
